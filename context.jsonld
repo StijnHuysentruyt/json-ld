@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "mnf": "http://rdf.isye.be/manufacturing#",
+    "label": {
+      "@id": "vocab: label",
+      "@container": "@language"
+    },
+    "minCount": {
+      "@id": "mnf:minCount",
+      "@type": "xsd:integer"
+    },
+    "maxCount": {
+      "@id": "mnf:maxCount",
+      "@type": "xsd:integer"
+    },
+    "cardinality": {
+      "@id": "mnf:cardinality",
+      "@type": "mnf:interfaceCardinality"
+    },
+    "isMadeUpOf": {
+      "@id": "mnf:isMadeUpOf",
+      "@type": "@id"
+    },
+    "includesPropertiesOf": {
+      "@id": "mnf:includesPropertiesOf",
+      "@type": "@id"
+    },
+    "definedBy": {
+      "@id": "mnf:definedBy",
+      "@type": "@id"
+    },
+    "referenceType": {
+      "@id": "mnf:referenceType",
+      "@type": "mnf:poseReferenceType"
+    },
+    "x": {
+      "@id": "mnf:x",
+      "@type": "xsd:double"
+    },
+    "y": {
+      "@id": "mnf:y",
+      "@type": "xsd:double"
+    },
+    "z": {
+      "@id": "mnf:z",
+      "@type": "xsd:double"
+    },
+    "quaternion": {
+      "@id": "mnf:quaternion",
+      "@type": "mnf:quaternion"
+    },
+    "origin": {
+      "@id": "mnf:origin",
+      "@type": "mnf:pose"
+    },
+    "direction": {
+      "@id": "mnf:direction",
+      "@type": "mnf:interfaceDirectionType"
+    },
+    "pointOfInterest": {
+      "@id": "mnf:pointOfInterest",
+      "@type": "@id"
+    },
+    "fromInterface": {
+      "@id": "mnf:fromInterface",
+      "@type": "@id"
+    },
+    "toInterface": {
+      "@id": "mnf:toInterface",
+      "@type": "@id"
+    },
+    "interfaceConnectionType": {
+      "@id": "mnf:interfaceConnectionType",
+      "@type": "mnf:interfaceConnectionType"
+    },
+    "containsState": {
+      "@id": "mnf:containsState",
+      "@type": "mnf:state"
+    },
+    "containsInterface": {
+      "@id": "mnf:containsInterface",
+      "@type": "@id"
+    },
+    "value": {
+      "@id": "mnf:value",
+      "@type": "xsd:string"
+    },
+    "dataType": {
+      "@id": "mnf:dataType",
+      "@type": "xsd:string"
+    },
+    "type": {
+      "@id": "mnf:type",
+      "@type": "@id"
+    },
+    "properties": {
+      "@id": "mnf:properties",
+      "@type": "mnf:classProperty"
+    },
+    "contains": {
+      "@id": "mnf:contains",
+      "@type": "mnf:classProperty"
+    },
+    "containsPhysicalAsset": {
+      "@id": "mnf:containsPhysicalAsset",
+      "@type": "@id"
+    },
+    "containsInterfaceConnection": {
+      "@id": "mnf:containsInterfaceConnection",
+      "@type": "@id"
+    },
+    "containsEquipment": {
+      "@id": "mnf:containsEquipment",
+      "@type": "@id"
+    },
+    "quantity": {
+      "@id": "mnf:quantity",
+      "@type": "xsd:double"
+    },
+    "duration": {
+      "@id": "mnf:duration",
+      "@type": "xsd:time"
+    },
+    "preState": {
+      "@id": "mnf:preState",
+      "@type": "mnf:state"
+    },
+    "consumedState": {
+      "@id": "mnf:consumedState",
+      "@type": "mnf:state"
+    },
+    "producedState": {
+      "@id": "mnf:producedState",
+      "@type": "mnf:state"
+    },
+    "correspondsToOperations": {
+      "@id": "mnf:correspondsToOperations",
+      "@type": "@id"
+    },
+    "containsMaterial": {
+      "@id": "mnf:containsMaterial",
+      "@type": "@id"
+    }
+  }
+}
