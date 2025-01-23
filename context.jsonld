@@ -3,36 +3,292 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "mnf": "http://rdf.isye.be/manufacturing#",
     "label": {
-      "@id": "vocab: label",
-      "@container": "@language"
+      "@id": "mnf:label",
+      "@type": "xsd:string"
     },
-    "minCount": {
-      "@id": "mnf:minCount",
-      "@type": "xsd:integer"
-    },
-    "maxCount": {
-      "@id": "mnf:maxCount",
-      "@type": "xsd:integer"
-    },
-    "cardinality": {
-      "@id": "mnf:cardinality",
-      "@type": "mnf:interfaceCardinality"
-    },
-    "isMadeUpOf": {
-      "@id": "mnf:isMadeUpOf",
+    "pose": {
+      "@id": "mnf:pose",
       "@type": "@id"
     },
-    "includesPropertiesOf": {
-      "@id": "mnf:includesPropertiesOf",
+    "worldState": {
+      "@id": "mnf:worldState",
       "@type": "@id"
     },
-    "definedBy": {
-      "@id": "mnf:definedBy",
+    "classProperty": {
+      "@id": "mnf:classProperty",
+      "@type": "@id"
+    },
+    "mappedProperty": {
+      "@id": "mnf:mappedProperty",
+      "@type": "@id"
+    },
+    "nestedProperty": {
+      "@id": "mnf:nestedProperty",
+      "@type": "@id"
+    },
+    "equipment": {
+      "@id": "mnf:equipment",
+      "@type": "@id"
+    },
+    "equipmentClass": {
+      "@id": "mnf:equipmentClass",
+      "@type": "@id"
+    },
+    "equipmentMapping": {
+      "@id": "mnf:equipmentMapping",
+      "@type": "@id"
+    },
+    "materialClass": {
+      "@id": "mnf:materialClass",
+      "@type": "mnf:MaterialClass"
+    },
+    "materialDefinition": {
+      "@id": "mnf:materialDefinition",
+      "@type": "@id"
+    },
+    "materialLot": {
+      "@id": "mnf:materialLot",
+      "@type": "@id"
+    },
+    "materialMapping": {
+      "@id": "mnf:materialMapping",
+      "@type": "@id"
+    },
+    "materialSubLot": {
+      "@id": "mnf:materialSubLot",
+      "@type": "@id"
+    },
+    "operationalLocation": {
+      "@id": "mnf:operationalLocation",
+      "@type": "@id"
+    },
+    "operationalLocationClass": {
+      "@id": "mnf:operationalLocationClass",
+      "@type": "@id"
+    },
+    "operationsDefinition": {
+      "@id": "mnf:operationsDefinition",
+      "@type": "@id"
+    },
+    "operationsMaterialBill": {
+      "@id": "mnf:operationsMaterialBill",
+      "@type": "@id"
+    },
+    "operationsMaterialBillItem": {
+      "@id": "mnf:operationsMaterialBillItem",
+      "@type": "@id"
+    },
+    "operationsSegment": {
+      "@id": "mnf:operationsSegment",
+      "@type": "@id"
+    },
+    "operationsSegmentDependency": {
+      "@id": "mnf:operationsSegmentDependency",
+      "@type": "@id"
+    },
+    "valueMapping": {
+      "@id": "mnf:valueMapping",
+      "@type": "@id"
+    },
+    "operationsPerformance": {
+      "@id": "mnf:operationsPerformance",
+      "@type": "@id"
+    },
+    "operationsResponse": {
+      "@id": "mnf:operationsResponse",
+      "@type": "@id"
+    },
+    "segmentResponse": {
+      "@id": "mnf:segmentResponse",
+      "@type": "@id"
+    },
+    "operationsRequest": {
+      "@id": "mnf:operationsRequest",
+      "@type": "@id"
+    },
+    "operationsSchedule": {
+      "@id": "mnf:operationsSchedule",
+      "@type": "@id"
+    },
+    "segmentRequirement": {
+      "@id": "mnf:segmentRequirement",
+      "@type": "@id"
+    },
+    "person": {
+      "@id": "mnf:person",
+      "@type": "@id"
+    },
+    "personnelClass": {
+      "@id": "mnf:personnelClass",
+      "@type": "@id"
+    },
+    "personnelMapping": {
+      "@id": "mnf:personnelMapping",
+      "@type": "@id"
+    },
+    "physicalAsset": {
+      "@id": "mnf:physicalAsset",
+      "@type": "@id"
+    },
+    "physicalAssetClass": {
+      "@id": "mnf:physicalAssetClass",
+      "@type": "@id"
+    },
+    "physicalAssetMapping": {
+      "@id": "mnf:physicalAssetMapping",
+      "@type": "@id"
+    },
+    "processSegment": {
+      "@id": "mnf:processSegment",
+      "@type": "@id"
+    },
+    "processSegmentDependency": {
+      "@id": "mnf:processSegmentDependency",
+      "@type": "@id"
+    },
+    "workDirective": {
+      "@id": "mnf:workDirective",
+      "@type": "@id"
+    },
+    "workMaster": {
+      "@id": "mnf:workMaster",
+      "@type": "@id"
+    },
+    "workflowSpecification": {
+      "@id": "mnf:workflowSpecification",
+      "@type": "@id"
+    },
+    "workflowSpecificationConnection": {
+      "@id": "mnf:workflowSpecificationConnection",
+      "@type": "@id"
+    },
+    "workflowSpecificationConnectionType": {
+      "@id": "mnf:workflowSpecificationConnectionType",
+      "@type": "@id"
+    },
+    "workflowSpecificationNode": {
+      "@id": "mnf:workflowSpecificationNode",
+      "@type": "@id"
+    },
+    "workflowSpecificationNodeType": {
+      "@id": "mnf:workflowSpecificationNodeType",
+      "@type": "@id"
+    },
+    "jobResponse": {
+      "@id": "mnf:jobResponse",
+      "@type": "@id"
+    },
+    "jobResponseList": {
+      "@id": "mnf:jobResponseList",
+      "@type": "@id"
+    },
+    "workPerformance": {
+      "@id": "mnf:workPerformance",
+      "@type": "@id"
+    },
+    "workResponse": {
+      "@id": "mnf:workResponse",
+      "@type": "@id"
+    },
+    "jobList": {
+      "@id": "mnf:jobList",
+      "@type": "@id"
+    },
+    "jobOrder": {
+      "@id": "mnf:jobOrder",
+      "@type": "@id"
+    },
+    "workRequest": {
+      "@id": "mnf:workRequest",
+      "@type": "@id"
+    },
+    "workSchedule": {
+      "@id": "mnf:workSchedule",
+      "@type": "@id"
+    },
+    "command": {
+      "@id": "mnf:command",
+      "@type": "@id"
+    },
+    "commandParameter": {
+      "@id": "mnf:commandParameter",
+      "@type": "mnf:CommandParameter"
+    },
+    "interfaceConnectionClass": {
+      "@id": "mnf:interfaceConnectionClass",
+      "@type": "@id"
+    },
+    "interfaceConnectionClassDefinitionBaseModel": {
+      "@id": "mnf:interfaceConnectionClassDefinitionBaseModel",
+      "@type": "@id"
+    },
+    "interfaceConnectionDefinition": {
+      "@id": "mnf:interfaceConnectionDefinition",
+      "@type": "@id"
+    },
+    "interfaceConnectionInstance": {
+      "@id": "mnf:interfaceConnectionInstance",
+      "@type": "@id"
+    },
+    "interfaceConnectionMapping": {
+      "@id": "mnf:interfaceConnectionMapping",
+      "@type": "@id"
+    },
+    "interfaceCardinality": {
+      "@id": "mnf:interfaceCardinality",
+      "@type": "@id"
+    },
+    "interfaceClass": {
+      "@id": "mnf:interfaceClass",
+      "@type": "@id"
+    },
+    "interfaceClassDefinitionBaseModel": {
+      "@id": "mnf:interfaceClassDefinitionBaseModel",
+      "@type": "@id"
+    },
+    "interfaceDefinition": {
+      "@id": "mnf:interfaceDefinition",
+      "@type": "@id"
+    },
+    "interfaceInstance": {
+      "@id": "mnf:interfaceInstance",
+      "@type": "@id"
+    },
+    "interfaceMapping": {
+      "@id": "mnf:interfaceMapping",
+      "@type": "@id"
+    },
+    "pointOfInterest": {
+      "@id": "mnf:pointOfInterest",
+      "@type": "mnf:PointOfInterest"
+    },
+    "pointOfInterestType": {
+      "@id": "mnf:pointOfInterestType",
+      "@type": "@id"
+    },
+    "propertyType": {
+      "@id": "mnf:propertyType",
+      "@type": "@id"
+    },
+    "state": {
+      "@id": "mnf:state",
+      "@type": "@id"
+    },
+    "jobDependency": {
+      "@id": "mnf:jobDependency",
+      "@type": "@id"
+    },
+    "jobGraph": {
+      "@id": "mnf:jobGraph",
       "@type": "@id"
     },
     "referenceType": {
       "@id": "mnf:referenceType",
-      "@type": "mnf:poseReferenceType"
+      "@type": "mnf:PoseReferenceType"
+    },
+    "customReference": {
+      "@id": "mnf:customReference",
+      "@type": "mnf:Resource"
     },
     "x": {
       "@id": "mnf:x",
@@ -48,42 +304,74 @@
     },
     "quaternion": {
       "@id": "mnf:quaternion",
-      "@type": "mnf:quaternion"
+      "@type": "mnf:Quaternion"
     },
-    "origin": {
-      "@id": "mnf:origin",
-      "@type": "mnf:pose"
+    "containsOperationalLocations": {
+      "@id": "mnf:containsOperationalLocations",
+      "@type": "mnf:OperationalLocation"
     },
-    "direction": {
-      "@id": "mnf:direction",
-      "@type": "mnf:interfaceDirectionType"
+    "containsPersonnel": {
+      "@id": "mnf:containsPersonnel",
+      "@type": "mnf:PersonnelMapping"
     },
-    "pointOfInterest": {
-      "@id": "mnf:pointOfInterest",
-      "@type": "@id"
+    "containsEquipment": {
+      "@id": "mnf:containsEquipment",
+      "@type": "mnf:EquipmentMapping"
     },
-    "fromInterface": {
-      "@id": "mnf:fromInterface",
-      "@type": "@id"
+    "containsPhysicalAsset": {
+      "@id": "mnf:containsPhysicalAsset",
+      "@type": "mnf:PhysicalAssetMapping"
     },
-    "toInterface": {
-      "@id": "mnf:toInterface",
-      "@type": "@id"
+    "containsMaterial": {
+      "@id": "mnf:containsMaterial",
+      "@type": "mnf:MaterialMapping"
     },
-    "interfaceConnectionType": {
-      "@id": "mnf:interfaceConnectionType",
-      "@type": "mnf:interfaceConnectionType"
+    "containsResources": {
+      "@id": "mnf:containsResources",
+      "@type": "mnf:Resource"
     },
-    "containsState": {
-      "@id": "mnf:containsState",
-      "@type": "mnf:state"
+    "properties": {
+      "@id": "mnf:properties",
+      "@type": "mnf:NestedProperty"
     },
-    "containsInterface": {
-      "@id": "mnf:containsInterface",
-      "@type": "@id"
+    "containsInterfaceConnection": {
+      "@id": "mnf:containsInterfaceConnection",
+      "@type": "mnf:InterfaceConnectionMapping"
+    },
+    "version": {
+      "@id": "mnf:version",
+      "@type": "xsd:string"
+    },
+    "hierarchyScope": {
+      "@id": "mnf:hierarchyScope",
+      "@type": "mnf:HierarchyScope"
+    },
+    "id": {
+      "@id": "mnf:id",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "mnf:description",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "mnf:tags",
+      "@type": "xsd:anyType"
+    },
+    "extensionData": {
+      "@id": "mnf:extensionData",
+      "@type": "xsd:anyType"
+    },
+    "contains": {
+      "@id": "mnf:contains",
+      "@type": "mnf:PropertyType"
     },
     "value": {
       "@id": "mnf:value",
+      "@type": "xsd:string"
+    },
+    "unitOfMeasure": {
+      "@id": "mnf:unitOfMeasure",
       "@type": "xsd:string"
     },
     "dataType": {
@@ -92,55 +380,423 @@
     },
     "type": {
       "@id": "mnf:type",
-      "@type": "@id"
+      "@type": "mnf:PropertyType"
     },
-    "properties": {
-      "@id": "mnf:properties",
-      "@type": "mnf:classProperty"
+    "mapsTo": {
+      "@id": "mnf:mapsTo",
+      "@type": "mnf:Property"
     },
-    "contains": {
-      "@id": "mnf:contains",
-      "@type": "mnf:classProperty"
+    "equipmentLevel": {
+      "@id": "mnf:equipmentLevel",
+      "@type": "mnf:EquipmentLevelType"
     },
-    "containsPhysicalAsset": {
-      "@id": "mnf:containsPhysicalAsset",
-      "@type": "@id"
+    "implementedBy": {
+      "@id": "mnf:implementedBy",
+      "@type": "mnf:PhysicalAsset"
     },
-    "containsInterfaceConnection": {
-      "@id": "mnf:containsInterfaceConnection",
-      "@type": "@id"
+    "isMadeUpOf": {
+      "@id": "mnf:isMadeUpOf",
+      "@type": "mnf:JobOrder"
     },
-    "containsEquipment": {
-      "@id": "mnf:containsEquipment",
-      "@type": "@id"
+    "definedBy": {
+      "@id": "mnf:definedBy",
+      "@type": "mnf:InterfaceClass"
+    },
+    "location": {
+      "@id": "mnf:location",
+      "@type": "mnf:ResourceLocation"
+    },
+    "fitsOperationalLocation": {
+      "@id": "mnf:fitsOperationalLocation",
+      "@type": "mnf:OperationalLocation"
+    },
+    "spatialDefinition": {
+      "@id": "mnf:spatialDefinition",
+      "@type": "mnf:SpatialDefinition"
+    },
+    "includesPropertiesOf": {
+      "@id": "mnf:includesPropertiesOf",
+      "@type": "mnf:WorkflowSpecificationNodeType"
+    },
+    "pointsOfInterest": {
+      "@id": "mnf:pointsOfInterest",
+      "@type": "mnf:PointOfInterest"
+    },
+    "containsInterface": {
+      "@id": "mnf:containsInterface",
+      "@type": "mnf:InterfaceMapping"
+    },
+    "containsState": {
+      "@id": "mnf:containsState",
+      "@type": "mnf:State"
+    },
+    "refersTo": {
+      "@id": "mnf:refersTo",
+      "@type": "mnf:ResourceBaseModel"
     },
     "quantity": {
       "@id": "mnf:quantity",
       "@type": "xsd:double"
     },
+    "quantityUnitOfMeasure": {
+      "@id": "mnf:quantityUnitOfMeasure",
+      "@type": "xsd:string"
+    },
+    "occupation": {
+      "@id": "mnf:occupation",
+      "@type": "mnf:OccupationType"
+    },
+    "interfaces": {
+      "@id": "mnf:interfaces",
+      "@type": "mnf:InterfaceMapping"
+    },
+    "isAssembledFrom": {
+      "@id": "mnf:isAssembledFrom",
+      "@type": "mnf:OperationsMaterialBillItem"
+    },
+    "isAssembledFromSubLot": {
+      "@id": "mnf:isAssembledFromSubLot",
+      "@type": "mnf:MaterialSubLot"
+    },
+    "status": {
+      "@id": "mnf:status",
+      "@type": "xsd:string"
+    },
+    "isPartOfMaterialLot": {
+      "@id": "mnf:isPartOfMaterialLot",
+      "@type": "mnf:MaterialLot"
+    },
+    "hasAssociatedMaterialBill": {
+      "@id": "mnf:hasAssociatedMaterialBill",
+      "@type": "mnf:OperationsMaterialBill"
+    },
+    "useType": {
+      "@id": "mnf:useType",
+      "@type": "mnf:UseType"
+    },
+    "isUseOf": {
+      "@id": "mnf:isUseOf",
+      "@type": "mnf:MaterialMapping"
+    },
+    "correspondsToProcessSegment": {
+      "@id": "mnf:correspondsToProcessSegment",
+      "@type": "mnf:ProcessSegment"
+    },
+    "executionDepedendency": {
+      "@id": "mnf:executionDepedendency",
+      "@type": "mnf:JobDependency"
+    },
     "duration": {
       "@id": "mnf:duration",
       "@type": "xsd:time"
     },
+    "hasAnExecutionDependencyOn": {
+      "@id": "mnf:hasAnExecutionDependencyOn",
+      "@type": "mnf:ProcessSegmentBaseModel"
+    },
+    "containsParameter": {
+      "@id": "mnf:containsParameter",
+      "@type": "mnf:ValueMapping"
+    },
+    "hasAssociatedWorkDefinition": {
+      "@id": "mnf:hasAssociatedWorkDefinition",
+      "@type": "mnf:WorkDefinition"
+    },
     "preState": {
       "@id": "mnf:preState",
-      "@type": "mnf:state"
+      "@type": "mnf:State"
     },
     "consumedState": {
       "@id": "mnf:consumedState",
-      "@type": "mnf:state"
+      "@type": "mnf:State"
     },
     "producedState": {
       "@id": "mnf:producedState",
-      "@type": "mnf:state"
+      "@type": "mnf:State"
+    },
+    "postState": {
+      "@id": "mnf:postState",
+      "@type": "mnf:State"
+    },
+    "from": {
+      "@id": "mnf:from",
+      "@type": "mnf:OperationsSegment"
+    },
+    "to": {
+      "@id": "mnf:to",
+      "@type": "mnf:OperationsSegment"
+    },
+    "dependencyType": {
+      "@id": "mnf:dependencyType",
+      "@type": "mnf:DependencyType"
+    },
+    "dependencyFactor": {
+      "@id": "mnf:dependencyFactor",
+      "@type": "xsd:string"
+    },
+    "dependencyFactorUnitOfMeasure": {
+      "@id": "mnf:dependencyFactorUnitOfMeasure",
+      "@type": "xsd:string"
+    },
+    "references": {
+      "@id": "mnf:references",
+      "@type": "mnf:OperationsSchedule"
+    },
+    "operationsType": {
+      "@id": "mnf:operationsType",
+      "@type": "mnf:OperationsType"
+    },
+    "startTime": {
+      "@id": "mnf:startTime",
+      "@type": "xsd:dateTime"
+    },
+    "endTime": {
+      "@id": "mnf:endTime",
+      "@type": "xsd:dateTime"
+    },
+    "performanceState": {
+      "@id": "mnf:performanceState",
+      "@type": "mnf:OperationsState"
+    },
+    "correspondsToRequest": {
+      "@id": "mnf:correspondsToRequest",
+      "@type": "mnf:OperationsRequest"
+    },
+    "correspondsToDefinition": {
+      "@id": "mnf:correspondsToDefinition",
+      "@type": "mnf:OperationsDefinition"
+    },
+    "correspondsToSegment": {
+      "@id": "mnf:correspondsToSegment",
+      "@type": "mnf:OperationsSegment"
+    },
+    "correspondsToRequirement": {
+      "@id": "mnf:correspondsToRequirement",
+      "@type": "mnf:SegmentRequirement"
+    },
+    "responseState": {
+      "@id": "mnf:responseState",
+      "@type": "mnf:OperationsState"
+    },
+    "correspondsToAProcessSegment": {
+      "@id": "mnf:correspondsToAProcessSegment",
+      "@type": "mnf:ProcessSegment"
+    },
+    "containsData": {
+      "@id": "mnf:containsData",
+      "@type": "mnf:ValueMapping"
+    },
+    "isMadeUpOfRequirement": {
+      "@id": "mnf:isMadeUpOfRequirement",
+      "@type": "mnf:SegmentRequirement"
+    },
+    "isMadeUpOfResponse": {
+      "@id": "mnf:isMadeUpOfResponse",
+      "@type": "mnf:WorkResponse"
+    },
+    "priority": {
+      "@id": "mnf:priority",
+      "@type": "xsd:decimal"
+    },
+    "personName": {
+      "@id": "mnf:personName",
+      "@type": "xsd:string"
+    },
+    "fixedAssetID": {
+      "@id": "mnf:fixedAssetID",
+      "@type": "xsd:string"
+    },
+    "vendorID": {
+      "@id": "mnf:vendorID",
+      "@type": "xsd:string"
+    },
+    "hasEquipmentAssetMapping": {
+      "@id": "mnf:hasEquipmentAssetMapping",
+      "@type": "mnf:EquipmentAssetMapping"
+    },
+    "manufacturer": {
+      "@id": "mnf:manufacturer",
+      "@type": "xsd:string"
+    },
+    "isCreatedFrom": {
+      "@id": "mnf:isCreatedFrom",
+      "@type": "mnf:WorkMaster"
+    },
+    "hasA": {
+      "@id": "mnf:hasA",
+      "@type": "mnf:WorkflowSpecification"
+    },
+    "distributedDuration": {
+      "@id": "mnf:distributedDuration",
+      "@type": "xsd:string"
+    },
+    "distributedDurationFormat": {
+      "@id": "mnf:distributedDurationFormat",
+      "@type": "xsd:string"
+    },
+    "correspondsToProcess": {
+      "@id": "mnf:correspondsToProcess",
+      "@type": "mnf:ProcessSegment"
     },
     "correspondsToOperations": {
       "@id": "mnf:correspondsToOperations",
-      "@type": "@id"
+      "@type": "mnf:OperationsSegment"
     },
-    "containsMaterial": {
-      "@id": "mnf:containsMaterial",
-      "@type": "@id"
+    "isACollectionOfNode": {
+      "@id": "mnf:isACollectionOfNode",
+      "@type": "mnf:WorkflowSpecificationNode"
+    },
+    "isACollectionOfConnection": {
+      "@id": "mnf:isACollectionOfConnection",
+      "@type": "mnf:WorkflowSpecificationConnection"
+    },
+    "hasPropertiesOf": {
+      "@id": "mnf:hasPropertiesOf",
+      "@type": "mnf:NestedProperty"
+    },
+    "connectsTo": {
+      "@id": "mnf:connectsTo",
+      "@type": "mnf:WorkflowSpecificationNode"
+    },
+    "connectsFrom": {
+      "@id": "mnf:connectsFrom",
+      "@type": "mnf:WorkflowSpecificationNode"
+    },
+    "fromMultiplicity": {
+      "@id": "mnf:fromMultiplicity",
+      "@type": "xsd:string"
+    },
+    "toMultiplicity": {
+      "@id": "mnf:toMultiplicity",
+      "@type": "xsd:string"
+    },
+    "hasWorkflowSpecification": {
+      "@id": "mnf:hasWorkflowSpecification",
+      "@type": "mnf:WorkflowSpecification"
+    },
+    "correspondsToWorkMaster": {
+      "@id": "mnf:correspondsToWorkMaster",
+      "@type": "mnf:WorkMaster"
+    },
+    "correspondsToWorkDirective": {
+      "@id": "mnf:correspondsToWorkDirective",
+      "@type": "mnf:WorkDirective"
+    },
+    "containsMapping": {
+      "@id": "mnf:containsMapping",
+      "@type": "mnf:StateMappingMapping"
+    },
+    "consumedMapping": {
+      "@id": "mnf:consumedMapping",
+      "@type": "mnf:StateMappingMapping"
+    },
+    "producedMapping": {
+      "@id": "mnf:producedMapping",
+      "@type": "mnf:StateMappingMapping"
+    },
+    "correspondsToSpecification": {
+      "@id": "mnf:correspondsToSpecification",
+      "@type": "mnf:WorkflowSpecification"
+    },
+    "correspondsToSpecificationNode": {
+      "@id": "mnf:correspondsToSpecificationNode",
+      "@type": "mnf:WorkflowSpecificationNode"
+    },
+    "correspondsToJobOrder": {
+      "@id": "mnf:correspondsToJobOrder",
+      "@type": "mnf:JobOrder"
+    },
+    "workMasterVersion": {
+      "@id": "mnf:workMasterVersion",
+      "@type": "xsd:string"
+    },
+    "isMadeUpOfPerformance": {
+      "@id": "mnf:isMadeUpOfPerformance",
+      "@type": "mnf:WorkPerformance"
+    },
+    "correspondsTo": {
+      "@id": "mnf:correspondsTo",
+      "@type": "mnf:WorkSchedule"
+    },
+    "isMadeUpOfJob": {
+      "@id": "mnf:isMadeUpOfJob",
+      "@type": "mnf:JobOrder"
+    },
+    "commandRule": {
+      "@id": "mnf:commandRule",
+      "@type": "xsd:string"
+    },
+    "dependencies": {
+      "@id": "mnf:dependencies",
+      "@type": "mnf:JobDependency"
+    },
+    "isMadeUpOfRequest": {
+      "@id": "mnf:isMadeUpOfRequest",
+      "@type": "mnf:WorkRequest"
+    },
+    "isMadeUpOfSchedule": {
+      "@id": "mnf:isMadeUpOfSchedule",
+      "@type": "mnf:WorkSchedule"
+    },
+    "commandParameterValue": {
+      "@id": "mnf:commandParameterValue",
+      "@type": "xsd:string"
+    },
+    "commandParameterType": {
+      "@id": "mnf:commandParameterType",
+      "@type": "mnf:CommandParameterType"
+    },
+    "fromInterface": {
+      "@id": "mnf:fromInterface",
+      "@type": "mnf:InterfaceClass"
+    },
+    "toInterface": {
+      "@id": "mnf:toInterface",
+      "@type": "mnf:InterfaceClass"
+    },
+    "interfaceConnectionType": {
+      "@id": "mnf:interfaceConnectionType",
+      "@type": "mnf:InterfaceConnectionType"
+    },
+    "offset": {
+      "@id": "mnf:offset",
+      "@type": "mnf:Pose"
+    },
+    "minCount": {
+      "@id": "mnf:minCount",
+      "@type": "xsd:integer"
+    },
+    "maxCount": {
+      "@id": "mnf:maxCount",
+      "@type": "xsd:integer"
+    },
+    "cardinality": {
+      "@id": "mnf:cardinality",
+      "@type": "mnf:InterfaceCardinality"
+    },
+    "origin": {
+      "@id": "mnf:origin",
+      "@type": "mnf:Pose"
+    },
+    "direction": {
+      "@id": "mnf:direction",
+      "@type": "mnf:InterfaceDirectionType"
+    },
+    "default": {
+      "@id": "mnf:default",
+      "@type": "xsd:string"
+    },
+    "generationStatus": {
+      "@id": "mnf:generationStatus",
+      "@type": "mnf:JobGraphGenerationStatusType"
+    },
+    "containsWork": {
+      "@id": "mnf:containsWork",
+      "@type": "mnf:WorkDefinition"
+    },
+    "containsConnection": {
+      "@id": "mnf:containsConnection",
+      "@type": "mnf:InterfaceConnectionInstance"
     }
   }
 }
