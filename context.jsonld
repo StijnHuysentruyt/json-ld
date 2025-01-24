@@ -400,7 +400,7 @@
     },
     "properties": {
       "@id": "mnf:properties",
-      "@type": "mnf:Property"
+      "@type": "@id"
     },
     "containsInterfaceConnection": {
       "@id": "mnf:containsInterfaceConnection",
@@ -488,7 +488,7 @@
     },
     "contains": {
       "@id": "mnf:contains",
-      "@type": "mnf:ClassProperty"
+      "@type": "@id"
     },
     "value": {
       "@id": "mnf:value",
@@ -528,7 +528,7 @@
     },
     "executionDepedendency": {
       "@id": "mnf:executionDepedendency",
-      "@type": "mnf:SegmentDependencyBaseModel"
+      "@type": "@id"
     },
     "containsParameter": {
       "@id": "mnf:containsParameter",
@@ -580,7 +580,7 @@
     },
     "hasAssociatedMaterialBill": {
       "@id": "mnf:hasAssociatedMaterialBill",
-      "@type": "mnf:OperationsMaterialBill"
+      "@type": "@id"
     },
     "useType": {
       "@id": "mnf:useType",
@@ -628,7 +628,7 @@
     },
     "correspondsToRequest": {
       "@id": "mnf:correspondsToRequest",
-      "@type": "mnf:OperationsRequest"
+      "@type": "@id"
     },
     "correspondsToDefinition": {
       "@id": "mnf:correspondsToDefinition",
@@ -640,7 +640,7 @@
     },
     "correspondsToRequirement": {
       "@id": "mnf:correspondsToRequirement",
-      "@type": "mnf:SegmentRequirement"
+      "@type": "@id"
     },
     "responseState": {
       "@id": "mnf:responseState",
@@ -656,11 +656,11 @@
     },
     "isMadeUpOfRequirement": {
       "@id": "mnf:isMadeUpOfRequirement",
-      "@type": "mnf:SegmentRequirement"
+      "@type": "@id"
     },
     "isMadeUpOfResponse": {
       "@id": "mnf:isMadeUpOfResponse",
-      "@type": "mnf:SegmentResponse"
+      "@type": "@id"
     },
     "priority": {
       "@id": "mnf:priority",
@@ -680,7 +680,7 @@
     },
     "hasEquipmentAssetMapping": {
       "@id": "mnf:hasEquipmentAssetMapping",
-      "@type": "mnf:EquipmentAssetMapping"
+      "@type": "@id"
     },
     "manufacturer": {
       "@id": "mnf:manufacturer",
@@ -716,15 +716,15 @@
     },
     "isACollectionOfNode": {
       "@id": "mnf:isACollectionOfNode",
-      "@type": "mnf:WorkflowSpecificationNode"
+      "@type": "@id"
     },
     "isACollectionOfConnection": {
       "@id": "mnf:isACollectionOfConnection",
-      "@type": "mnf:WorkflowSpecificationConnection"
+      "@type": "@id"
     },
     "hasPropertiesOf": {
       "@id": "mnf:hasPropertiesOf",
-      "@type": "mnf:NestedProperty"
+      "@type": "@id"
     },
     "connectsTo": {
       "@id": "mnf:connectsTo",
@@ -756,15 +756,15 @@
     },
     "containsMapping": {
       "@id": "mnf:containsMapping",
-      "@type": "mnf:StateMappingMapping"
+      "@type": "@id"
     },
     "consumedMapping": {
       "@id": "mnf:consumedMapping",
-      "@type": "mnf:StateMappingMapping"
+      "@type": "@id"
     },
     "producedMapping": {
       "@id": "mnf:producedMapping",
-      "@type": "mnf:StateMappingMapping"
+      "@type": "@id"
     },
     "correspondsToSpecification": {
       "@id": "mnf:correspondsToSpecification",
@@ -800,7 +800,7 @@
     },
     "dependencies": {
       "@id": "mnf:dependencies",
-      "@type": "mnf:JobDependency"
+      "@type": "@id"
     },
     "isMadeUpOfRequest": {
       "@id": "mnf:isMadeUpOfRequest",
