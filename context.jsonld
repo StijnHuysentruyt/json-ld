@@ -4,11 +4,13 @@
     "mnf": "http://rdf.isye.be/manufacturing#",
     "label": {
       "@id": "vocab: label",
-      "@container": "@language"
+      "@container": "@language",
+      "@type": "xsd:string"
     },
     "description": {
       "@id": "vocab: description",
-      "@container": "@language"
+      "@container": "@language",
+      "@type": "xsd:string"
     },
     "Pose": {
       "@id": "mnf:Pose",
