@@ -352,7 +352,7 @@
     },
     "referenceType": {
       "@id": "mnf:referenceType",
-      "@type": "@id"
+      "@type": "mnf:PoseReferenceType"
     },
     "customReference": {
       "@id": "mnf:customReference",
@@ -372,7 +372,7 @@
     },
     "quaternion": {
       "@id": "mnf:quaternion",
-      "@type": "@id"
+      "@type": "mnf:Quaternion"
     },
     "containsOperationalLocations": {
       "@id": "mnf:containsOperationalLocations",
@@ -400,7 +400,7 @@
     },
     "properties": {
       "@id": "mnf:properties",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "containsInterfaceConnection": {
       "@id": "mnf:containsInterfaceConnection",
@@ -412,7 +412,7 @@
     },
     "hierarchyScope": {
       "@id": "mnf:hierarchyScope",
-      "@type": "@id"
+      "@type": "mnf:HierarchyScope"
     },
     "tags": {
       "@id": "mnf:tags",
@@ -428,7 +428,7 @@
     },
     "location": {
       "@id": "mnf:location",
-      "@type": "@id"
+      "@type": "mnf:ResourceLocation"
     },
     "fitsOperationalLocation": {
       "@id": "mnf:fitsOperationalLocation",
@@ -440,7 +440,7 @@
     },
     "spatialDefinition": {
       "@id": "mnf:spatialDefinition",
-      "@type": "@id"
+      "@type": "mnf:SpatialDefinition"
     },
     "isMadeUpOf": {
       "@id": "mnf:isMadeUpOf",
@@ -460,7 +460,7 @@
     },
     "occupation": {
       "@id": "mnf:occupation",
-      "@type": "@id"
+      "@type": "mnf:OccupationType"
     },
     "interfaces": {
       "@id": "mnf:interfaces",
@@ -476,7 +476,7 @@
     },
     "dependencyType": {
       "@id": "mnf:dependencyType",
-      "@type": "@id"
+      "@type": "mnf:DependencyType"
     },
     "dependencyFactor": {
       "@id": "mnf:dependencyFactor",
@@ -488,7 +488,7 @@
     },
     "contains": {
       "@id": "mnf:contains",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "value": {
       "@id": "mnf:value",
@@ -508,7 +508,7 @@
     },
     "mapsTo": {
       "@id": "mnf:mapsTo",
-      "@type": "@id"
+      "@type": "mnf:Property"
     },
     "isAssembledFrom": {
       "@id": "mnf:isAssembledFrom",
@@ -528,7 +528,7 @@
     },
     "executionDepedendency": {
       "@id": "mnf:executionDepedendency",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "containsParameter": {
       "@id": "mnf:containsParameter",
@@ -540,23 +540,23 @@
     },
     "preState": {
       "@id": "mnf:preState",
-      "@type": "@id"
+      "@type": "mnf:State"
     },
     "consumedState": {
       "@id": "mnf:consumedState",
-      "@type": "@id"
+      "@type": "mnf:State"
     },
     "producedState": {
       "@id": "mnf:producedState",
-      "@type": "@id"
+      "@type": "mnf:State"
     },
     "postState": {
       "@id": "mnf:postState",
-      "@type": "@id"
+      "@type": "mnf:State"
     },
     "equipmentLevel": {
       "@id": "mnf:equipmentLevel",
-      "@type": "@id"
+      "@type": "mnf:EquipmentLevelType"
     },
     "implementedBy": {
       "@id": "mnf:implementedBy",
@@ -572,7 +572,7 @@
     },
     "containsState": {
       "@id": "mnf:containsState",
-      "@type": "@id"
+      "@type": "mnf:State"
     },
     "isPartOfMaterialLot": {
       "@id": "mnf:isPartOfMaterialLot",
@@ -580,11 +580,11 @@
     },
     "hasAssociatedMaterialBill": {
       "@id": "mnf:hasAssociatedMaterialBill",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "useType": {
       "@id": "mnf:useType",
-      "@type": "@id"
+      "@type": "mnf:UseType"
     },
     "isUseOf": {
       "@id": "mnf:isUseOf",
@@ -612,7 +612,7 @@
     },
     "operationsType": {
       "@id": "mnf:operationsType",
-      "@type": "@id"
+      "@type": "mnf:OperationsType"
     },
     "startTime": {
       "@id": "mnf:startTime",
@@ -624,11 +624,11 @@
     },
     "performanceState": {
       "@id": "mnf:performanceState",
-      "@type": "@id"
+      "@type": "mnf:OperationsState"
     },
     "correspondsToRequest": {
       "@id": "mnf:correspondsToRequest",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "correspondsToDefinition": {
       "@id": "mnf:correspondsToDefinition",
@@ -640,11 +640,11 @@
     },
     "correspondsToRequirement": {
       "@id": "mnf:correspondsToRequirement",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "responseState": {
       "@id": "mnf:responseState",
-      "@type": "@id"
+      "@type": "mnf:OperationsState"
     },
     "correspondsToAProcessSegment": {
       "@id": "mnf:correspondsToAProcessSegment",
@@ -656,11 +656,11 @@
     },
     "isMadeUpOfRequirement": {
       "@id": "mnf:isMadeUpOfRequirement",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "isMadeUpOfResponse": {
       "@id": "mnf:isMadeUpOfResponse",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "priority": {
       "@id": "mnf:priority",
@@ -680,7 +680,7 @@
     },
     "hasEquipmentAssetMapping": {
       "@id": "mnf:hasEquipmentAssetMapping",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "manufacturer": {
       "@id": "mnf:manufacturer",
@@ -716,23 +716,23 @@
     },
     "isACollectionOfNode": {
       "@id": "mnf:isACollectionOfNode",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "isACollectionOfConnection": {
       "@id": "mnf:isACollectionOfConnection",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "hasPropertiesOf": {
       "@id": "mnf:hasPropertiesOf",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "connectsTo": {
       "@id": "mnf:connectsTo",
-      "@type": "@id"
+      "@type": "mnf:WorkflowSpecificationNode"
     },
     "connectsFrom": {
       "@id": "mnf:connectsFrom",
-      "@type": "@id"
+      "@type": "mnf:WorkflowSpecificationNode"
     },
     "fromMultiplicity": {
       "@id": "mnf:fromMultiplicity",
@@ -756,15 +756,15 @@
     },
     "containsMapping": {
       "@id": "mnf:containsMapping",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "consumedMapping": {
       "@id": "mnf:consumedMapping",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "producedMapping": {
       "@id": "mnf:producedMapping",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "correspondsToSpecification": {
       "@id": "mnf:correspondsToSpecification",
@@ -772,7 +772,7 @@
     },
     "correspondsToSpecificationNode": {
       "@id": "mnf:correspondsToSpecificationNode",
-      "@type": "@id"
+      "@type": "mnf:WorkflowSpecificationNode"
     },
     "correspondsToJobOrder": {
       "@id": "mnf:correspondsToJobOrder",
@@ -800,7 +800,7 @@
     },
     "dependencies": {
       "@id": "mnf:dependencies",
-      "@type": "@id"
+      "@type": "mnf:List`1"
     },
     "isMadeUpOfRequest": {
       "@id": "mnf:isMadeUpOfRequest",
@@ -820,7 +820,7 @@
     },
     "interfaceConnectionType": {
       "@id": "mnf:interfaceConnectionType",
-      "@type": "@id"
+      "@type": "mnf:InterfaceConnectionType"
     },
     "commandParameter": {
       "@id": "mnf:commandParameter",
@@ -832,11 +832,11 @@
     },
     "commandParameterType": {
       "@id": "mnf:commandParameterType",
-      "@type": "@id"
+      "@type": "mnf:CommandParameterType"
     },
     "offset": {
       "@id": "mnf:offset",
-      "@type": "@id"
+      "@type": "mnf:Pose"
     },
     "minCount": {
       "@id": "mnf:minCount",
@@ -848,11 +848,11 @@
     },
     "cardinality": {
       "@id": "mnf:cardinality",
-      "@type": "@id"
+      "@type": "mnf:InterfaceCardinality"
     },
     "origin": {
       "@id": "mnf:origin",
-      "@type": "@id"
+      "@type": "mnf:Pose"
     },
     "pointOfInterest": {
       "@id": "mnf:pointOfInterest",
@@ -860,11 +860,11 @@
     },
     "direction": {
       "@id": "mnf:direction",
-      "@type": "@id"
+      "@type": "mnf:InterfaceDirectionType"
     },
     "pose": {
       "@id": "mnf:pose",
-      "@type": "@id"
+      "@type": "mnf:Pose"
     },
     "default": {
       "@id": "mnf:default",
@@ -872,7 +872,7 @@
     },
     "generationStatus": {
       "@id": "mnf:generationStatus",
-      "@type": "@id"
+      "@type": "mnf:JobGraphGenerationStatusType"
     },
     "containsWork": {
       "@id": "mnf:containsWork",
