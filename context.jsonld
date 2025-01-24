@@ -3,14 +3,12 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "mnf": "http://rdf.isye.be/manufacturing#",
     "label": {
-      "@id": "vocab: label",
-      "@container": "@language",
-      "@type": "xsd:string"
+      "@id": "vocab:label",
+      "@container": "@language"
     },
     "description": {
-      "@id": "vocab: description",
-      "@container": "@language",
-      "@type": "xsd:string"
+      "@id": "vocab:description",
+      "@container": "@language"
     },
     "Pose": {
       "@id": "mnf:Pose",
