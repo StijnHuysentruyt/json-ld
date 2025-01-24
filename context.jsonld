@@ -3,8 +3,12 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "mnf": "http://rdf.isye.be/manufacturing#",
     "label": {
-      "@id": "mnf:label",
-      "@type": "xsd:string"
+      "@id": "vocab: label",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "vocab: description",
+      "@container": "@language"
     },
     "Pose": {
       "@id": "mnf:Pose",
@@ -409,10 +413,6 @@
     "hierarchyScope": {
       "@id": "mnf:hierarchyScope",
       "@type": "@id"
-    },
-    "description": {
-      "@id": "mnf:description",
-      "@type": "xsd:string"
     },
     "tags": {
       "@id": "mnf:tags",
