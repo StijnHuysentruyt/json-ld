@@ -410,10 +410,6 @@
       "@id": "mnf:hierarchyScope",
       "@type": "mnf:HierarchyScope"
     },
-    "id": {
-      "@id": "mnf:id",
-      "@type": "xsd:string"
-    },
     "description": {
       "@id": "mnf:description",
       "@type": "xsd:string"
