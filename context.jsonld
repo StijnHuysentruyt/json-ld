@@ -10,6 +10,14 @@
       "@id": "vocab:description",
       "@container": "@language"
     },
+    "Quaternion": {
+      "@id": "mnf:Quaternion",
+      "@type": "@id"
+    },
+    "w": {
+      "@id": "mnf:w",
+      "@type": "xsd:double"
+    },
     "Pose": {
       "@id": "mnf:Pose",
       "@type": "@id"
